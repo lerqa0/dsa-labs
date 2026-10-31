@@ -13,7 +13,6 @@ public:
                 if (items.empty()) {
                     return false;
                 }
-
                 if (s[i] == ')' && items.top() == '(') {
                     items.pop();
                 }
